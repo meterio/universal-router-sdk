@@ -104,6 +104,12 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0x4300000000000000000000000000000000000004',
     creationBlock: 1116444,
   },
+  // berabartio
+  [80084]: {
+    router: '0x00f839569298903b11FadF265e34086743b867f0',
+    weth: '0x7507c1dc16935B82698e4C63f2746A2fCf994dF8',
+    creationBlock: 7229162,
+  },
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
